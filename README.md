@@ -26,7 +26,7 @@ Node 16, yarn installed.
 
 ### Usage
 
-- run "yarn serve" in root directory of the project
+- run ### `yarn start` in root directory of the project
 
 
 ## Authors
