@@ -13,5 +13,3 @@ export default {
   components: { CharacterList, PageController },
 };
 </script>
-
-<style scoped></style>
