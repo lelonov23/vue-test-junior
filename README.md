@@ -1,24 +1,47 @@
 # vue-test-junior
 
-## Project setup
-```
-yarn install
-```
+> Realisation of a Rick and Morty API gallery using Vue and Vuex.
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## Built With
 
-### Compiles and minifies for production
-```
-yarn build
-```
+- JavaScript
+- Vue 2, Vuex, Vue-Router
+- HTML5, CSS3
 
-### Lints and fixes files
-```
-yarn lint
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+
+### Prerequisites
+
+Node 16, yarn installed.
+
+
+### Install
+
+- clone repo to your local machine
+
+
+### Usage
+
+- run "yarn serve" in root directory of the project
+
+
+## Authors
+
+👤 **lelonov23**
+
+- GitHub: [@lelonov23](https://github.com/lelonov23)
+- Twitter: [@lelonov](https://twitter.com/lelonov)
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+
+## Show your support
+
+Give a ⭐️ if you like this project!
