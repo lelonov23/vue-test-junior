@@ -22,16 +22,15 @@ export default {
 
 <style scoped>
 .list {
-  margin: 1rem 1.5rem;
   padding: 0;
   display: grid;
-  grid-template-columns: 19rem 19rem;
+  grid-template-columns: min-content min-content;
   gap: 2rem;
   justify-content: center;
 }
 @media only screen and (max-width: 767px) {
   .list {
-    grid-template-columns: 19rem;
+    grid-template-columns: min-content;
   }
 }
 </style>

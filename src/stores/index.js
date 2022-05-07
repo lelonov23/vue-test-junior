@@ -5,7 +5,7 @@ Vue.use(Vuex);
 export default new Vuex.Store({
   state: {
     _data: [],
-    _pageCount: 0,
+    _pageCurrent: 0,
   },
 
   mutations: {
@@ -13,7 +13,7 @@ export default new Vuex.Store({
       state._data = data;
     },
     setPage(state, val) {
-      state._pageCount = val;
+      state._pageCurrent = val;
     },
   },
 
@@ -37,11 +37,20 @@ export default new Vuex.Store({
     data(state) {
       return state._data;
     },
-    pageCount(state) {
-      return state._pageCount;
+    pageCurrent(state) {
+      return state._pageCurrent;
     },
     filteredData(state) {
-      return state._data.slice(state._pageCount * 4, state._pageCount * 4 + 4);
+      return state._data.slice(
+        state._pageCurrent * 4,
+        state._pageCurrent * 4 + 4
+      );
+    },
+    pages(state) {
+      const num = Math.ceil(state._data.length / 4);
+      const pages = [];
+      for (let i = 0; i < num; i++) pages[i] = i + 1;
+      return pages;
     },
   },
 });
