@@ -2,6 +2,10 @@
 
 > Realisation of a Rick and Morty API gallery using Vue and Vuex.
 
+## Live Demo
+
+[Click here](https://funny-axolotl-506314.netlify.app/)
+
 ## Built With
 
 - JavaScript
