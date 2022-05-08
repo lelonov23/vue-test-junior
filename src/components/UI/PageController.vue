@@ -50,6 +50,7 @@ ul {
 .page {
   font-size: 14px;
   margin: 0 0.5rem;
+  cursor: pointer;
 }
 
 .active {
